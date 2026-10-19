@@ -1,0 +1,15 @@
+{
+  "parallelism": "data",
+  "nodes": 2,
+  "gpus_per_node": 8,
+  "data_parallel_replicas": 16,
+  "per_device_microbatch": 64,
+  "gradient_accumulation_steps": 1,
+  "global_batch_size": 1024,
+  "usable_samples": 1378118,
+  "drop_last": true,
+  "epochs": 20,
+  "save_every_epochs": 1,
+  "warmup_steps": 150,
+  "initialization": "base"
+}

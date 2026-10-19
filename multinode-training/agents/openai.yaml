@@ -1,0 +1,4 @@
+interface:
+  display_name: "多机训练检查"
+  short_description: "提交前验证多机训练配置，检查分布式启动、断点和指标，减少失败重排队"
+  default_prompt: "使用 $multinode-training 检查这次多节点训练，先给出验证证据，再执行已授权的提交。"
